@@ -11,7 +11,7 @@ project:
   branched: true
 version:
   release: 'upcoming'
-  branch: 'master'
+  branch: 'docs-migration'
 system:
   runstate:
     serial_sphinx: publish
@@ -25,13 +25,13 @@ assets:
     path: build/docs-tools
     repository: https://github.com/mongodb/docs-tools.git
   - branch: docs-migration
-    path: build/node-mongodb-native
+    path: build/node-driver-docs-migration
     repository: https://github.com/mongodb/node-mongodb-native.git
 paths:
   output: 'build'
-  source: 'source-master'
-  includes: 'source-master/includes'
-  images: 'source-master/images'
+  source: 'source-docs-migration'
+  includes: 'source-docs-migration/includes'
+  images: 'source-docs-migration/images'
   tools: 'bin'
   buildsystem: 'build/docs-tools'
   builddata: 'config'
