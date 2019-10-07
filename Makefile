@@ -52,9 +52,9 @@ deploy: build/public/${GIT_BRANCH} ## Deploy to the production bucket
 deploy-search-index: ## Update the search index for this branch
 	@echo "Building search index"
 	if [ ${STABLE_BRANCH} = ${GIT_BRANCH} ]; then \
-		mut-index upload build/public/${GIT_BRANCH} -o docs-node-${GIT_BRANCH}.json -u ${PRODUCTION_URL}/${PROJECT}/${GIT_BRANCH} -g -s; \
+		mut-index upload build/public/${GIT_BRANCH} -o docs-ruby-${GIT_BRANCH}.json -u ${PRODUCTION_URL}/${PROJECT}/${GIT_BRANCH} -g -s; \
 	else \
-		mut-index upload build/public/${GIT_BRANCH} -o docs-node-${GIT_BRANCH}.json -u ${PRODUCTION_URL}/${PROJECT}/${GIT_BRANCH} -s; \
+		mut-index upload build/public/${GIT_BRANCH} -o docs-ruby-${GIT_BRANCH}.json -u ${PRODUCTION_URL}/${PROJECT}/${GIT_BRANCH} -s; \
 	fi
 
 migrate: get-assets
@@ -62,8 +62,8 @@ migrate: get-assets
 	if [ -d ${TARGET_DIR} ]; then rm -rf ${TARGET_DIR} ; fi;
 	mkdir ${TARGET_DIR}
 
-	@echo "Copying over node-driver docs files"
-	cp -R build/node-driver-${GIT_BRANCH}/docs/reference/content/* ${TARGET_DIR}
+	@echo "Copying over ruby-driver docs files"
+	cp -R build/node-driver-${GIT_BRANCH}/docs/guide/* ${TARGET_DIR}
 
 get-assets:
 	giza generate assets

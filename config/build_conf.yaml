@@ -11,7 +11,7 @@ project:
   branched: true
 version:
   release: 'upcoming'
-  branch: 'docs-migration'
+  branch: 'master'
 system:
   runstate:
     serial_sphinx: publish
