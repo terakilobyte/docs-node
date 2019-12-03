@@ -10,6 +10,8 @@ the Node driver. For the main MongoDB documentation, see the
 
 The Node driver documentation is organized as follows:
 
+foo
+
 .. toctree::
    :titlesonly:
    :maxdepth: 1
