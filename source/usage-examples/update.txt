@@ -27,7 +27,7 @@ The ``movies`` collection contains documents similar to the following:
 { _id: 6305, title: "Gertie the Dinosaur", plot: "The cartoonist, Winsor McCay, brings the Dinosaurus back to life." }
 
 Update a document and return it's results: 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g
 The `collection.findOneAndUpdate`  function is used to update an
 existing document and return the original document in one single `atomic`
 operation. If returnNewDocument was true, the operation would return the updated document instead.
