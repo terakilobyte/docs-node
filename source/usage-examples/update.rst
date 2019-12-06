@@ -17,6 +17,7 @@ Overview
 MongoDB offers methods to update an existing document for various use cases. Two of these are `collection.updateOne` and collection.findOneAndUpdate`. 
 
 The movies collection contains documents similar to the following:
+
 .. code-block:: 
 
     { _id: 6305, title: "Blacksmith Scene", plot: "Blacksmith Scene is an 1893 American short black-and-white silent film directed by William K.L. Dickson" },
