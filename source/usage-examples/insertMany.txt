@@ -13,7 +13,7 @@ Create an `Object
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 to specify additional options.  Set the ``bypassDocumentValidation`` field to bypass
 :manual:`schema validation <core/schema-validation/>` rules in MongoDB 3.2 or higher. 
-Specify ``ordered: true`` to prevent inserting the remaining documents if a 
+Specify ``ordered:true`` to prevent inserting the remaining documents if a 
 previous document in the array fails to be inserted.
 
 The ``insertMany()`` method returns a `Promise
@@ -23,5 +23,5 @@ contains the ``_id`` of each inserted document. The ``insertedCount`` field of t
 contains the amount of documents inserted into the collection.
 
 Specifying incorrect parameters for your ``insertMany()`` operation can
-cause problems. Attempting to update a field to value that would violate
+cause problems. Attempting to insert a field to a value that would violate
 unique index rules will throw a ``duplicate key error``.
