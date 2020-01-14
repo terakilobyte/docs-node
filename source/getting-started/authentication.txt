@@ -6,8 +6,8 @@ Authentication Guide
 
 .. toctree::
 
-   /getting-started/authentication-mechanisms
-   /getting-started/authentication-mechanisms-enterprise
+   /getting-started/authentication/authentication-mechanisms
+   /getting-started/authentication/authentication-mechanisms-enterprise
 
 Overview
 --------
