@@ -9,7 +9,8 @@ Getting Started
 
 .. toctree::
    :caption: Examples
-   :maxdepth: 1
+   :maxdepth: 2
 
+   /getting-started/quickstart
    /getting-started/authentication
    /getting-started/crud-guide
