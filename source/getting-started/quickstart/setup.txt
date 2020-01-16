@@ -1,45 +1,55 @@
+:guide:
 
-.. guide::
-   title: Node Quick Start
-   author: MongoDB
-   type: Getting Started
-   level: beginner
-   product_version: 4.2
-   result_description:
-     In this quick start guide, you will perform basic Read, Create, Update, and
-     Delete operations against a free-tier Atlas deployment.
-   time: 10
-   prerequisites:
-     None
-   procedure:
+===========
+Quick Start
+===========
 
-     title: Check for Node and NPM
-     ref: check_node_and_npm
-     level: 4
-     stepnum: 1
-     content: |
+.. author:: MongoDB
+.. category:: Getting Started
+.. level:: beginner
+.. languages::
 
-       Ensure your system has Node >= 8 and NPM (Node Package Manager) installed. You
-       can verify whether you have Node and NPM installed by executing the following in
-       your terminal.
+   * javascript
 
-       .. code-block:: sh
+.. product_version:: 4.2
+.. result_description::
 
-          node -v
-          npm -v
+   In this quick start guide, you will perform basic Read, Create, Update, and
+   Delete operations against a free-tier Atlas deployment.
+.. time:: 10
+.. prerequisites::
 
-       You should see output similar to the following:
+   None
 
-       .. code-block:: sh
+.. procedure::
 
-          v12.14.1
-          6.13.4
+    Check For Dependencies
+    ----------------------
 
-       If you need to install Node and NPM, refer to `nodejs.org <https://nodejs.org>`_
-       for installation instructions.
+    Ensure your system has Node >= 8 and NPM (Node Package Manager) installed. You
+    can verify whether you have Node and NPM installed by executing the following in
+    your terminal.
+
+    .. code-block:: sh
+
+       node -v
+       npm -v
+
+    You should see output similar to the following:
+
+    .. code-block:: sh
+
+       v12.14.1
+       6.13.4
+
+    If you need to install Node and NPM, refer to `nodejs.org <https://nodejs.org>`_
+    for installation instructions.
 
 
-   summary:
-     Foobizzle
-   whats_next:
-     Leet code bruh
+.. summary::
+
+   Foobizzle
+
+.. whats_next::
+
+   Leet code
