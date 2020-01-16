@@ -1,6 +1,3 @@
-===========
-Quick Start
-===========
 
 .. guide::
    title: Node Quick Start
