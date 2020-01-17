@@ -5,6 +5,3 @@ FAQ
 .. default-domain:: mongodb
 
 Frequently Asked Questions
-
-
-hello world

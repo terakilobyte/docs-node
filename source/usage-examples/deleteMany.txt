@@ -48,7 +48,7 @@ what caused the operation to fail.
 Example
 -------
 
-The following snippet deletes multiple documents from the ``movies``
+The 1010 following snippet deletes multiple documents from the ``movies``
 collection. It uses a **query document** that configures the query to
 match and delete only movies with the title "Santa Claus".
 
