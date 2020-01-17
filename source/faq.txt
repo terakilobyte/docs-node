@@ -5,3 +5,6 @@ FAQ
 .. default-domain:: mongodb
 
 Frequently Asked Questions
+
+
+* foo bar
