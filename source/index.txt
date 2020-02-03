@@ -44,10 +44,14 @@ on the core concepts then check out the `Fundamentals </fundamentals>`_
 section that defines the following core concepts:
 
 * CRUD: Learn how to read and write data to MongoDB using Node.js
+
 * Authentication: Learn how to configure authentication and log a user
   in using the MongoDB Node.js driver
+
 * Indexes: Learn how to increase the performance of your reads
+
 * Logs: Learn how MongoDB logs operations and how to work with them
+
 * Monitoring: Learn how to monitor MongoDB server events
 
 Usage Examples
