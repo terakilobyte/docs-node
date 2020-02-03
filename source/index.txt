@@ -22,10 +22,10 @@ MongoDB Node Driver
 Introduction
 ------------
 The official MongoDB Node.js driver allows Node.js applications to
-connect to MongoDB and work with data. 
+connect to MongoDB and work with data.
 
 .. note::
-   
+
    These docs are for version 3.5 of the MongoDB Node.js driver. If
    you're looking for an older version of the MongoDB Node.js driver
    docs, `see the Legacy Node.js driver documentation
@@ -45,9 +45,10 @@ section that defines the following core concepts:
 
 * CRUD: Learn how to read and write data to MongoDB using Node.js
 * Authentication: Learn how to configure authentication and log a user
-in using the MongoDB Node.js driver
+  in using the MongoDB Node.js driver
+* Indexes: Learn how to increase the performance of your reads
 * Logs: Learn how MongoDB logs operations and how to work with them
-* Monitoring: Learn how to monitor MongoDB server events 
+* Monitoring: Learn how to monitor MongoDB server events
 
 Usage Examples
 --------------
@@ -63,16 +64,16 @@ technical information about classes, methods, and configuration objects
 within the MongoDB Node.js driver.
 
 
-FAQ 
+FAQ
 ---
 The `Frequently Asked Questions (FAQ) </faq>`_ section provides answers
-to the most commonly asked questions about the MongoDB Node.js Driver. 
+to the most commonly asked questions about the MongoDB Node.js Driver.
 
 Issues & Help
 -------------
 The `Issues & Help </issues-and-help>`_ Section explains how to report
 bugs, contribute to the driver, and find additional resources for asking
-questions and receiving help. 
+questions and receiving help.
 
 Compatibility
 -------------
