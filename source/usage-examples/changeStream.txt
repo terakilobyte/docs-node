@@ -7,6 +7,7 @@ Watch for Changes
 Open a Change Stream
 --------------------
 
+
 You can keep track of changes to data in MongoDB, such as changes to a
 collection, database, or deployment, by opening a :manual:`change
 stream</changeStreams/>`. A change stream allows applications to
