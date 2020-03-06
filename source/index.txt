@@ -18,7 +18,6 @@ MongoDB Node Driver
   /issues-and-help
   /compatibility
 
-
 Introduction
 ------------
 The official MongoDB Node.js driver allows Node.js applications to
@@ -102,4 +101,4 @@ questions and receiving help.
 Compatibility
 -------------
 The :doc:`Compatibility </compatibility>` section shows compatibility charts
-with the Node.js language and the MongoDB server versions.
+with the Node.js language and the MongoDB server versions. 
