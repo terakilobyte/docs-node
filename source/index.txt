@@ -2,7 +2,7 @@
 MongoDB Node Driver
 ===================
 
-.. default-domain:: mongodb
+.. default-domain:: mongodb 
 
 .. include:: /includes/unicode-checkmark.rst
 
