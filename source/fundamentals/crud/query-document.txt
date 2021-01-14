@@ -147,8 +147,8 @@ This code snippet returns the following results:
 
     collection.find({
       $and : [
-         rating: { $eq: 5 },
-         qty: { $gt: 4 }
+         { rating: { $eq: 5 } },
+         { qty: { $gt: 4 } }
       ]
     })
 
